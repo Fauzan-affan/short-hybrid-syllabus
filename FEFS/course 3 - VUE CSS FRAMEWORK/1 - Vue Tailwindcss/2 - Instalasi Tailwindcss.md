@@ -1,6 +1,6 @@
 # Instalasi Tailwindcss
 
-Pada Vue, kita bisa menggunakan command prompt atau terminal untuk menginstalasi project Vue yang sudah kita buat terlebih dahulu menggunakan Vue CLI. Selanjutnya, project tersebut akan kita tambahkan Tailwindcss di dalamnya.
+Pada Vue, kita bisa menggunakan command prompt atau terminal untuk menginstalasi project Vue yang sudah kita buat terlebih dahulu menggunakan Vue CLI. **Jangan lupa tambahkan Vue Router** di dalamnya untuk navigasi antar componentnya. Selanjutnya, project tersebut akan kita tambahkan Tailwindcss di dalamnya.
 
 Ini adalah tampilan awal ketika menjalankan project Vue yang sudah saya buat dengan nama `vue-tailwind`:
 

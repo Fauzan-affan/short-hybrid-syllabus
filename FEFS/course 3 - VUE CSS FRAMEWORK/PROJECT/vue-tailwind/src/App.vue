@@ -1,10 +1,11 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div id="app" class="flex bg-gray-900 text-white min-h-screen">
+    <div id="nav w-24">
+      Navbar
     </div>
-    <router-view/>
+    <div class="w-full">
+      <router-view/>
+    </div>
   </div>
 </template>
 
