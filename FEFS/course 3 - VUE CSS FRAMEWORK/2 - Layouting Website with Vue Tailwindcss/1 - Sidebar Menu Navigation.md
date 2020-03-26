@@ -19,7 +19,7 @@ Di sini kita melakukan beberapa hal:
     * `w-full` sama seperti `width: 100%`
 2. Mengatur default background component kita menjadi `grey` dengan transparansi `900`
 3. Mensetting semua text yang ada di dalam component menjadi warna putih, menggunakan `text-with`
-4. Merubah minimal tampilan screen seukuran layar komputer, menggunakan `min-h-screen`
+4. Merubah minimal tinggi tampilan screen seukuran layar komputer, menggunakan `min-h-screen`
 
 > ***Tips & trick:*** Jika ada class Tailwind yang tidak teman-teman ketahui, silahkan buka [Tailwindcss.com](https://tailwindcss.com/), dan copy-kan class yang ingin teman-teman ketahui lebih lanjut di search box. Dengan cara seperti ini, Tailwindcss akan menampilkan keterangan lebih detail terkait class tersebut dan teman-teman bisa mengetahui lebih banyak tentang Tailwindcss.
 
