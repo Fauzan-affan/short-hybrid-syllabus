@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="605" height="250" viewBox="0 0 605 250">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #d3d3d3;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+        font-size: 200px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Avenir Next";
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <text id="FEBS" class="cls-1" x="297.164" y="191.852"><tspan x="297.164">FEBS</tspan></text>
+</svg>
