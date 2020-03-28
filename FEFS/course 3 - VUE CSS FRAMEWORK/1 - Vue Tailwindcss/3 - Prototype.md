@@ -30,4 +30,14 @@ Pada saat pembuatan prototype, **penting untuk tau seberapa jauh kita bisa mener
 
 Berikut ini adalah contoh prototype dari portofolio website yang mau kita buat:
 
-![portofolio XD](img/)
+1. ***Home***
+
+    ![portofolio XD](img/9.jpg)
+
+2. ***About***
+
+    ![portofolio XD](img/10.jpg)
+
+3. ***Contact Me***
+
+    ![portofolio XD](img/11.jpg)
