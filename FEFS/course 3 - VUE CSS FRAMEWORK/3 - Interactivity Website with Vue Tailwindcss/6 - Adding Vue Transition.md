@@ -55,6 +55,6 @@ Selanjutnya buka `main.css` di folder `css`, dan tambahkan ini:
 
 Save dan **reload browser**, lalu coba berpindah dari satu page ke page lainnya menggunakan menu navigation. Keren kan? :)
 
-Oya, jika teman-teman ingin melihat semua *source coude*-nya, silahkan kunjungi Github saya di ()[]
+Oya, jika teman-teman ingin melihat semua *source coude*-nya, silahkan kunjungi Github saya di [https://github.com/Fauzan-affan/vue-tailwind.git](https://github.com/Fauzan-affan/vue-tailwind.git)
 
 Sampai jumpa pada chapter berikutnya!!!
