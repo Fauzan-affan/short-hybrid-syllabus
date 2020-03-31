@@ -106,7 +106,7 @@ Yang perlu diperhatikan dari sintaks di atas adalah:
 
 Run dan lihat di browser:
 
-![img](img/10.png)
+![img](img/1.png)
 
 Tetapi cara ini tidak berlaku untuk SPA (Single Page Application) juga.
 
@@ -165,6 +165,10 @@ Contoh sintaks lengkapnya:
 
 Kita bisa saja menggunakan lokal component di file yang sama, tetapi biasanya developers lebih suka memisahkannya, dan memasukkan ke dalam component yang lain menggunakan **Javascript module.**
 
+Run dan lihat di browser:
+
+![img](img/2.png)
+
 ## Reusable Component
 
 Massih menggunakan sintak yang mirip dengan lokal component sbelumnya. Yang membedakan hanya pemanggilan component sebanyak 5x:
@@ -207,4 +211,21 @@ Yang harus diperhatikan adalah:
 
 * Untuk memmanggil component lebih dari 1x gunakan format `<Nama></Nama>`. Tidak bisa hanya menggunakan `<Nama />`
 
+Run dan lihat di browser:
+
+![img](img/3.png)
+
 ## Bulding Blocks of Component
+
+Sejauh ini kita melihat bagaimana component menggunakan properti `el` dan `template`.
+
+* `el` hanya bisa digunakan root component yang dibuat menggunakan `new Vue()`, dan merender DOM element ke dalam suatu class ataupun id tertentu
+* `template` digunakan supaya kita bisa membuat component template, yang bertanggung jawab untuk mendefinisikan sebuah output dari component tersebut
+
+Ada beberapa properti lain yang bisa digunakan oleh component, dan akan kita bahas nanti:
+
+* `data`: State pada lokal component (tempat penyimpanan data di lokal component)
+* `props`: Semua data properti yang kita kirimkan ke child component
+* `methods`: Tempat semua fungsi yang *trigger*-nya harus di-*invoke*
+* `computed`: Tempat semua fungsi tanpa *trigger* (bisa langsung jalan tanpa dipanggil)
+* `watch`: Tempat semua fungsi yang di-*trigger* setiap ada state yang berubah
