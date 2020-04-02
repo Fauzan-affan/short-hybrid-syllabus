@@ -153,6 +153,51 @@ Klik `index.html` isinya akan sama seperti berikut:
 
 ![img](img/28.png)
 
+## How to Use `git status`
+
+Jika kita tadi sudah berhasil melakukan `push` atau upload project ke github, selanjutnya bagaimana kalau suatu saat kita rubah isi dari `index.html`? Nah, `git status` **digunakan untuk melihat perubah yang terjadi di dalam workdir**. Buka index.html dan tambahkan element `<p>` di dalamnya:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Git & Github</title>
+    </head>
+    <body>
+        <h1>Hello, World!</h1>
+        <p>Nama Saya fauzan</p>
+    </body>
+</html>
+```
+
+Karena kita telah melakukan perubahan di berkas atau project kita, maka vscode akan mendeteksi itu sebagai `modified` atau perubahan yang tandanya dalah `M`:
+
+![img](img/29.png)
+
+Untuk melihat **di mana saja perubahan yang terjadi di dalam project kita**, kita gunakan `git status` seperti berikut:
+
+![img](img/30.png)
+
+Pada gambar di atas, `git` memberitahukan bahwasannya ada perubahan di dalam file `index.html`. Dan memang benar kita telah menambahkan element `<p>` di dalamnya. Selanjutnya pindahkan `index.html` ke dalam index (stage) dengan `git add .`, lalu lakukan lagi `git status`:
+
+![img](img/31.png)
+
+Yang tadinya ***modified*** berwarna merah, sekarang berwarna hijau yang artinya kita sudah berhasil memindahkan perubahan `index.html` ke dalam *stagging area*. Selanjutnya `git commit -m "Update index.html"`, lalu `git status`:
+
+![img](img/32.png)
+
+Pada gambar di atas setelah kita *commit*. `git status` memberitahukan tidak ada lagi yang perlu kita commit. Dan tahap terakhir adalah mengupload perubahan `index.html` yang sudah berada di ***HEAD*** ke repositori online Github kita menggunakan `git push origin master`:
+
+![img](img/33.png)
+
+> ***Tips & trick:*** Index juga sering disebut dengan ***stage*** atau ***stagging area***
+
+Reload repositori online Github dan klik `index.html` lagi. Sekarang isinya sudah sama persis seperti repositori lokal yang ada di komputer kita:
+
+![img](img/34.png)
+
 ## How to Use `git pull` & `git fetch`
 
 Okay sekarang kita sudah tersambung antara repositori lokal dengan repositori online Github, tetapi kita harus mengambil berkas-berkas yang ada di dalam repositori online Github juga, supaya tidak terjadi **konflik**. Ini akan terasa setiap kali kita melakukan kolaborasi antar developer. Contohnya, kita bekerja sama dengan beberapa orang dan mensubmit project kita ke repositori online Github yang sama. Suatu ketika, repositori online Github kita diperbarui oleh developer lain tanpa sepengetahuan kita. Nah, untuk menghindari terjadinya **konflik** dengan repositori kita di lokal. Kita harus mengambil repositori online Githubnya terlebih dahulu, sebelum kita mulai memperbarui berkas kita di repositori lokal. Caranya bisa menggunakan `git pull` atau `git fetch`.
