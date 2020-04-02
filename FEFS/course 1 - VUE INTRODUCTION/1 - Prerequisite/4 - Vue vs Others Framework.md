@@ -45,3 +45,5 @@ Vue:
 * Router dengan [Vue-router](https://router.vuejs.org/)
 
 Terakhir, yang paling membedakan Vue dengan framework-framework lain, yaitu Vue merupakan ***indie project,*** artinya Vue tidak di backup oleh perusahaan besar seperti Facebook ataupun Google. Sebagai gantinya, Vue dibackup oleh komunitas yang sangat besar, pengembangannya melalui donasi dan sponsor.
+
+> ***Tips & trick:*** Sebelum teman-teman masuk ke section berikutnya, saya sarankan install `node.js` terlebih dahulu [di sini](https://medium.com/@w.syah123/cara-install-node-js-dan-buat-project-vue-windows-10-64-bit-e6606be6691f). Kemudian, cek versi `node.js` menggunakan `node --version` di terminal masing-masing.
