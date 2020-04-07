@@ -43,7 +43,7 @@ export default {
 }
 ```
 
-## Inisialisai
+## Inisialisasi
 
 Pertama, kita buat dulu EventBus.js di dalam folder `src` (jika ingin lebih rapih boleh buat satu folder lagi untuk menampung file EventBus.js), lalu kita ***export*** supaya setiap component bisa mengenalinya. Cara membuatnya sangat gampang dengan sintaks berikut ini:
 
