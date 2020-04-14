@@ -2,13 +2,13 @@
 
 ## Final Project Overview
 
-Pada Final Project: Fitnes Companion API.
+Pada Final Project: Fitnes Companion API,
 
-1. Kamu akan membuat sebuah **endpoint yang dapat mengatur workout harian**
+1. Kamu akan membuat sebuah **endpoint yang dapat mengatur data workout Fitnes Companion yang terdari dari 2 file, yaitu heroesList.js dan personalsList.js**
 
-2. **Menampilkan detail workout berdasarkan masing-masing workout yang dipilih**
+2. **Mengetest endpoint yang telah dibuat menggunakan aplikasi Postman** untuk memastikan endpoint bekerja sesuai dengan apa yang diharapkan
 
-3. Projek ini menitikberatkan **penggunaan Express untuk memaintain aspek backend** nya
+3. Projek ini menitikberatkan **penggunaan Express.js untuk memaintain aspek backend** nya
 
 ## Starting from Scratch
 

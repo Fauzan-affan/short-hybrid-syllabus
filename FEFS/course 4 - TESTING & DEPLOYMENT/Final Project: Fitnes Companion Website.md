@@ -2,7 +2,7 @@
 
 ## Final Project Overview
 
-Pada Final Project: Fitnes Companion Website.
+Pada Final Project: Fitnes Companion Website,
 
 1. Kamu akan membuat sebuah **tampilan menggunakan Vue yang dapat mengatur workout harian**
 
