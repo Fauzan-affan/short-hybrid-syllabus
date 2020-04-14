@@ -1,1 +1,1 @@
-# Pra-Kerja-Syllabus
+# short-hybrid-syllabus
