@@ -9,7 +9,7 @@ Seberapa populer sih Vue?
 
 Dan pada saat lesson ini dibuat, pada 30 Maret 2020 sudah ada [160,376 stars di Github-nya Vue!](https://github.com/vuejs/vue). User yang mendownload Vue lewat [`nmp` terhitung sudah mencapai angka 1,639,862 per week](https://www.npmjs.com/package/vue) dan ini terus bertambah setiap harinya.
 
-React yang merupakan Framework besutan Facebook, pada saat lesson ini dibuat hanya memperoleh [146,005 stars di Github](https://github.com/facebook/react/).
+React yang merupakan Framework besutan Facebook, pada saat lesson ini dibuat hanya memperoleh [163,005 stars di Github](https://github.com/facebook/react/).
 
 Ini menunjukkan bahwasannya **Vue sangat amat populer,** berdasarkan angka-angka tersebut. *Number its's not everything, of course.* Kesan yang bisa kita lihat pada Vue adalah, bahwasannya developers di luar sana sangat mencintai Vue.
 
